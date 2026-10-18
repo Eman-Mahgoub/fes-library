@@ -17,21 +17,27 @@ body {
 NAV
 
 */
+#landing{
+  width:100%;
+  padding: 0;
+  margin: 0;
+}
 
 nav {
 height: 80px;
 display: flex;
+margin: 0;
+padding: 0;
 }
-.navbar {
-  border: 1px solid red
-}
+
 .nav__container {
-  border: 1px solid black;
-  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
-   width: 100%;
-  max-width: 1200px;
+  width: 100%;
+  border: 1px solid black;
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
 }
 
 .purple {
@@ -50,6 +56,8 @@ img {
 
 ul {
   display: flex;
+  margin: 0 auto;
+  border: 1px solid black;
 }
 
 li {
