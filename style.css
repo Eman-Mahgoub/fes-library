@@ -22,12 +22,16 @@ nav {
 height: 80px;
 display: flex;
 }
-
+.navbar {
+  border: 1px solid red
+}
 .nav__container {
-  width: 100%;
-  max-width: 1200;
+  border: 1px solid black;
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
+   width: 100%;
+  max-width: 1200px;
 }
 
 .purple {
